@@ -47,7 +47,14 @@ body {
   background-repeat: no-repeat;
   width: 1440px;
   height: 993px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
+
+
 
 .imgPartName {
   color: #FFFFFF;
@@ -57,26 +64,61 @@ body {
   width: fit-content; 
   margin-left: auto;
   margin-right: auto;
-  display: block; 
+  margin-top: 29.5%;
+  display: block;   
+  margin-bottom: 10px;
 }
-
-
 
 .loremTextDiv{
   width: 745px;
   height: 201px;
   color: #FFFFFF;
   font-size: 25px;
-  margin-left: auto;
-  margin-right: auto;
   display: block; 
-  margin-top: 200px;
   margin-bottom: auto;
 }
 
 .topPizza{
   margin: 0 auto;
-  margin-top: 28.5px;
 
 }
 
+.aboutUs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUsHeader{
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-decoration-color: #F2C94C;
+  font-size: 60px;
+  margin-top: 100px;
+}
+
+.aboutUsText{
+  color: #FFFFFF;
+  font-size: 25px;
+  height: 400px;
+  width: 400px;
+}
+
+.aboutUsImageDiv{
+  margin-top: 100px;
+  height: 500px;
+  width: 500px;
+}
+
+.aboutUsImg{
+  height: 643px;
+  width: 413px;
+}
+
+.readMore{
+  border: solid 1px #F2C94C;
+  background-color:  #000000;
+  color: #F2C94C;
+  height: 54px;
+  width: 129px;
+  cursor: pointer;
+}
