@@ -123,3 +123,37 @@ body {
   cursor: pointer;
   margin-top: 100px;
 }
+
+.findUsHeader{
+  text-align: center;
+}
+
+.findUsHeaderText{
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-decoration-color: #F2C94C;
+  font-size: 60px;
+  margin-top: 100px;
+}
+
+.findUsBody{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  
+}
+
+.map{
+  height: 600px;
+  width: 600px;
+  margin-left: 15%;
+}
+
+.findUsTextDiv{
+  margin-left: 13%;
+}
+
+.findUsText{
+  color: #FFFFFF;
+  font-size: 25px;
+}
