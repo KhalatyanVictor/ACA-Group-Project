@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #333;
+    padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .menuHeaderDiv{
+    text-align: center;
+  }
+
+  .menuHeader{
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #F2C94C;
+    font-size: 60px;
+  }
+
+  .categories{
+    text-align: center;
+  }
+
+  .active{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 28px;
+    padding: 20px;
+  }
